@@ -1,0 +1,345 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form {
+    width: 90%;
+    height: 950px;
+    background-color: bisque;
+    margin: 10px auto;
+}
+
+.dormitory {
+    height: 50px;
+    width: 95%;
+    margin: 20px auto;
+    background-color: tomato;
+    color: yellow;
+    line-height: 20px;
+    font-size: 20px;
+    padding-left: 45px;
+    display: flex;
+}
+
+.dormitory .warn {
+    padding: 15px;
+}
+
+.dormitory .dor-img img {
+    width: 20px;
+    height: 20px;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+.note {
+    height: 50px;
+    width: 95%;
+    margin: 20px auto;
+    background-color: tomato;
+    color: yellow;
+    line-height: 20px;
+    font-size: 20px;
+    padding-left: 50px;
+    display: flex;
+}
+
+.note .not {
+    padding: 15px;
+    cursor: pointer;
+}
+
+
+/* DORMITORY WARDEN NAME */
+
+.dor-name {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.dor-name .input1 input {
+    height: 40px;
+    width: 650px;
+    font-size: 1.3rem;
+    margin-left: 43px;
+    outline: none;
+}
+
+.dor-name .input1 p {
+    font-size: 25px;
+    margin-left: 43px;
+    padding: 5px;
+}
+
+.dor-name .input2 input {
+    height: 40px;
+    width: 650px;
+    font-size: 1.3rem;
+    margin-right: 43px;
+    outline: none;
+}
+
+.dor-name .input2 p {
+    font-size: 25px;
+    margin-right: 43px;
+    padding: 5px;
+}
+
+
+/* --------------------------------------------- */
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.contact .code select {
+    height: 40px;
+    width: 100px;
+    font-size: 1.3rem;
+    margin-left: 43px;
+    outline: none;
+    border-radius: 3px;
+}
+
+.contact .code input {
+    height: 40px;
+    width: 542px;
+    font-size: 1.3rem;
+    margin-left: 3px;
+    outline: none;
+}
+
+.contact .input1 p {
+    font-size: 25px;
+    margin-left: 43px;
+    padding: 5px;
+}
+
+.contact .input2 input {
+    height: 40px;
+    width: 650px;
+    font-size: 1.3rem;
+    margin-right: 43px;
+    outline: none;
+}
+
+.contact .input2 p {
+    font-size: 25px;
+    margin-right: 43px;
+    padding: 5px;
+}
+
+
+/* ------------------------------------------ */
+
+.totalf {
+    margin-top: 20px;
+}
+
+.totalf .code select {
+    height: 40px;
+    width: 650px;
+    font-size: 1.3rem;
+    margin-left: 43px;
+    outline: none;
+}
+
+.totalf .p1 {
+    font-size: 25px;
+    margin-left: 43px;
+    padding: 5px;
+}
+
+
+/* ----------------------------------------- -- */
+
+.address {
+    margin-top: 20px;
+}
+
+.address input {
+    height: 40px;
+    width: 95%;
+    font-size: 1.3rem;
+    margin-left: 43px;
+    outline: none;
+}
+
+.address p {
+    font-size: 25px;
+    margin-left: 43px;
+    padding: 5px;
+}
+
+
+/* ------------------------------------------ */
+
+.cunty {
+    margin-top: 60px;
+    display: flex;
+}
+
+.cunty .code select {
+    height: 40px;
+    width: 650px;
+    font-size: 1.3rem;
+    margin-left: 43px;
+    outline: none;
+}
+
+.cunty .code2 select {
+    height: 40px;
+    width: 650px;
+    font-size: 1.3rem;
+    margin-left: 322px;
+    outline: none;
+}
+
+
+/* ------------------------------------------ */
+
+.city {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.city .input1 input {
+    height: 40px;
+    width: 650px;
+    font-size: 1.3rem;
+    margin-left: 43px;
+    outline: none;
+}
+
+.city .input1 p {
+    font-size: 25px;
+    margin-left: 43px;
+    padding: 5px;
+}
+
+.city .input2 input {
+    height: 40px;
+    width: 650px;
+    font-size: 1.3rem;
+    margin-right: 43px;
+    outline: none;
+}
+
+.city .input2 p {
+    font-size: 25px;
+    margin-right: 43px;
+    padding: 5px;
+}
+
+
+/* ---------------------------------------------- */
+
+.footer {
+    height: 60px;
+    width: 95%;
+    background-color: rgb(228, 227, 227);
+    margin: 75px auto;
+    /* box-shadow: 3px 3px red, -1em 0 .4em transparent; */
+}
+
+.footer .btn3 {
+    width: 70px;
+    height: 40px;
+    background-color: rgb(76, 122, 6);
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    margin-top: 10px;
+    position: absolute;
+    right: 270px;
+    line-height: 40px;
+}
+
+.footer .btn3:active {
+    transform: scale(0.99);
+}
+
+.footer .btn4 {
+    width: 90px;
+    height: 40px;
+    background-color: tomato;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    margin-top: 10px;
+    position: absolute;
+    right: 160px;
+}
+
+.footer .btn4:active {
+    transform: scale(0.99);
+}
+
+
+/* --------------------------------------------- */
+
+
+/* TABLE */
+
+.table {
+    height: 950px;
+    background-color: bisque;
+    margin: 10px auto;
+}
+
+h1 {
+    margin-left: 43px;
+    padding-top: 40px;
+}
+
+#total {
+    padding-top: 25px;
+    margin-left: 43px;
+}
+
+#table {
+    width: 95%;
+    height: 700px;
+    margin-left: 43px;
+}
+
+i img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-left: px;
+}
+
+p {
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+span {
+    padding-left: 20px;
+}
+
+td {
+    padding-left: 10px;
+    font-size: 25px;
+}
+
+#con {
+    display: flex;
+}
+
+th {
+    font-size: 30px;
+    background-color: cadetblue;
+    color: aliceblue;
+}
